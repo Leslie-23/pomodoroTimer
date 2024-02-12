@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pomodoro Timer</title>
+  </head>
+  <body>
+    <div class="timer-container">
+      <div id="timer-label">Deep Work</div>
+      <div id="time-left">25:00</div>
+      <button id="start-stop" onclick="toggleTimer()">Start</button>
+      <button id="reset" onclick="resetTimer()" ondblclick="playAlarmReset()">
+        Reset
+      </button>
+    </div>
+    <audio id="alarm" src="beep-04.mp3"></audio>
+    <audio id="alarm2" src="beep-06.mp3"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>

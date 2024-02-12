@@ -1,0 +1,43 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.timer-container {
+  text-align: center;
+}
+
+#timer-label {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+#time-left {
+  font-size: 7em;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button#start-stop {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+button#reset {
+  background-color: #f44336;
+  color: #fff;
+}
