@@ -22,7 +22,7 @@ The Pomodoro Technique is a time management method developed by Francesco Cirill
 - JavaScript (ES6+)
 
 ## Demo
-You can view a live demo of the Pomodoro Timer [here](#).
+You can view a live demo of the Pomodoro Timer [here](https://github.com/Leslie-23/pomodoroTimer/blob/main/Pomodoro%20Timer/index.html).
 
 ## Installation
 To run the Pomodoro Timer locally:
