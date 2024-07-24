@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: "Arial", sans-serif;
   display: flex;
   align-items: center;
@@ -40,4 +40,74 @@ button#start-stop {
 button#reset {
   background-color: #f44336;
   color: #fff;
+}
+ */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#timer-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px 30px;
+  width: 300px;
+}
+
+#timer-label {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#time-left {
+  font-size: 3em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  background-color: #004080;
+}
+
+#reset {
+  background-color: #dc3545;
+}
+
+#reset:hover {
+  background-color: #c82333;
+}
+
+#reset:active {
+  background-color: #a71d2a;
 }
